@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DB64D2D-94BD-43F7-ADF9-A3686B60C5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D204779-BD47-41C1-9558-17A30BCB3B2F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GradebookDict", "src\GradebookDict\GradebookDict.xproj", "{A4B014FF-F6F8-4BAA-94FE-8BB183B8C3BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4B014FF-F6F8-4BAA-94FE-8BB183B8C3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B014FF-F6F8-4BAA-94FE-8BB183B8C3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B014FF-F6F8-4BAA-94FE-8BB183B8C3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B014FF-F6F8-4BAA-94FE-8BB183B8C3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4B014FF-F6F8-4BAA-94FE-8BB183B8C3BA} = {9DB64D2D-94BD-43F7-ADF9-A3686B60C5CB}
+	EndGlobalSection
+EndGlobal
